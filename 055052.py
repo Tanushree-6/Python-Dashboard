@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 # Load the dataset
-hts = pd.read_csv('C:/FORE/Term 1/Imports_Exports_Dataset.csv')
+hts = pd.read_csv('Imports_Exports_Dataset.csv')
 
 # Convert the 'Date' column to datetime format if not already converted
 hts['Date'] = pd.to_datetime(hts['Date'], errors='coerce')
